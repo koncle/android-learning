@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    android:layout_height="167dp"
+    android:layout_width="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/carousel"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"/>
+
+        <RadioGroup
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right">
+
+            <RadioButton
+                android:id="@+id/indicator0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/indicator_select"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/indicator1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/indicator_select"
+                android:button="@null"/>
+
+            <RadioButton
+                android:id="@+id/indicator2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/indicator_select"
+                android:button="@null"/>
+        </RadioGroup>
+</android.support.v7.widget.CardView>
